@@ -1,0 +1,254 @@
+body {
+  font-family: 'Lato',sans-serif;
+  box-shadow: 0 2px 5px 0 #111626, 0 2px 10px 0 #111626;
+}
+
+.bg-back {
+  color: #fff;
+  padding: 8px 20px;
+
+}
+.start {
+  background-color: #0f1119;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+
+}
+
+.start p {
+  color: silver;
+  padding-top: 0px;
+  padding-left: 20px;
+}
+
+.bg-back ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  padding-left: 20px;
+}
+
+.bg-back ul li {
+  margin: 10px 0px;
+}
+
+.bg-back ul li a {
+  padding: 10px 15px;
+  display: block;
+  color: #cdd0d1;
+  border-radius: 10px;
+  font-size: 0.8rem;
+}
+
+.active {
+  background-color: #232635;
+}
+
+.bg-back ul li a:hover {
+  background-color: #232635;
+  text-decoration: none;
+}
+
+
+
+
+.serch-box input {
+  width: 98%;
+  padding-left: 50px;
+  border-radius: 10px;
+  border: 1px solid #242c3e;
+  background-color: #242c3e;
+  color: white;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  ;
+
+}
+::placeholder{
+  color: #656a77;
+  font-size: 0.8rem;
+
+}
+.serch-box input:focus {
+  outline: 0;
+}
+
+.button-box .en {
+  background-color: #1a2335;
+  padding: 5px 0px;
+  color:  #9b9696e0;
+  font-size: 0.7rem;
+  width: 3.5rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px 0 #111626, 0 2px 10px 0 #111626;
+}
+
+.button-box .login {
+  background-color: #1a2335;
+  padding: 4px 0px;
+  font-size: 0.7rem;
+  width: 5rem;
+  color: #3764c6;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px 0 #111626, 0 2px 10px 0 #111626;
+
+}
+
+.button-box .try {
+  background-color:#3f74f0;
+  padding: 4px 0px;
+  font-size: 0.7rem;
+  width: 5rem;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px 0 #111626, 0 2px 10px 0 #111626;
+}
+
+
+
+/*------------------slider-------------------*/
+
+.slide{
+  height: 40vh;
+  width: 100%;
+}
+.s_img{
+ height: 100%;
+ width: 100%;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0%;
+  left: 12%;
+}
+
+.carousel-caption .list a {
+  color: #adadad;
+  text-decoration: none;
+  font-size: 0.8rem;;
+
+}
+
+.carousel-caption .head h3 {
+
+  font-weight: bold;
+  color: white;
+  font-size: 2rem;
+}
+
+.carousel-caption .btn-box button {
+  background-color: rgba(16, 22, 29, 0.6);
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  color: #9fa1a1;
+  font-size: 0.8rem;
+  margin-top:2%;
+
+}
+
+
+.carousel-inner {
+  border-radius: 10px;
+  box-shadow: 0 2px 5px 0 #111626, 0 2px 10px 0 #111626;;
+}
+.para{
+font-size: 0.9rem;
+}
+/*-----------------card-box-------------------------*/
+
+.all-collection {
+
+  background-color: white;
+  color: #5d616c;
+  font-weight: 500;
+  padding: 2px 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 0.8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------media query----------------------------*/
+@media(max-width:768px) {
+  .bg-back {
+    background-color: skyblue;
+    color: white;
+    padding: 10px 5px;
+  }
+
+  .en {
+    display: none;
+  }
+
+  .try {
+    display: none;
+  }
+
+  .login {
+    color: white !important;
+    background-color: blue !important;
+    margin-right: 0px !important;
+  }
+
+  .list-box {
+    display: none;
+  }
+
+  .carousel-item img {
+    height: 250px;
+  }
+
+  .carousel-caption {
+    position: absolute;
+    top: 10%;
+  }
+
+  .carousel-caption .list a {
+    color: white;
+    padding: 10px 0px;
+    text-decoration: none;
+    margin: 0px 2px;
+  }
+
+  .carousel-caption .head h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin: 4px 0px;
+  }
+
+  .carousel-caption .btn-box button {
+    background-color: #181515e0;
+    font-size: 12px;
+    padding: 9px 10px;
+    border: none;
+    border-radius: 15px;
+    margin-right: 3px;
+    color: white;
+  }
+
+  .carousel-caption .para {
+    display: none;
+  }
+
+  .image-box {
+    display: none
+  }
+}

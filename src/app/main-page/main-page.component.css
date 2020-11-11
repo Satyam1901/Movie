@@ -1,0 +1,29 @@
+.card{
+  height: 13rem;
+}
+.card-box .card {
+  background-color: #121924;
+  color:white;
+  box-shadow: 0 2px 5px 0 #111626, 0 2px 10px 0 #111626;;
+  ;
+  border-radius: 15px;
+  border: none;
+}
+
+.card-box .col-lg-3 {
+  padding: 8px;
+}
+
+.card-box .card img {
+  border-radius: 10px 10px 0px 0px;
+}
+.card-body h4 {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #bababb;
+}
+.card-body p {
+  font-size: 0.6rem;
+  font-weight: 600;
+  color: #8c8c8d;
+}

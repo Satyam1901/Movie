@@ -1,0 +1,140 @@
+<div class="container-fluid bg-back">
+  <div class="start">
+    <div class="row">
+      <div class="col-md-3 px-5  col-12">
+        <img src="assets/movie-img/Logo.png" alt="" class="img-fluid ml-2" width="50" height="40">
+        <span class="text-center " style="font-size: 0.8rem; font-weight:400;">Cinemeya</span>
+      </div>
+      <div class="col-md-5 ">
+        <div class="serch-box"><input type="text" placeholder="Search">
+        </div>
+      </div>
+      <div class="col-md-3 ml-2 col-3">
+        <div class="button-box d-flex justify-content-between">
+          <div class="px-1">
+            <button class="en" >
+              <i class="fas fa-globe-asia">
+              </i> EN</button></div>
+          <div>
+            <button class="login mr-3">Login</button>
+            <button class="try mr-0" >Try Now</button></div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row mt-2">
+      <div class="col-md-3 px-5">
+        <label class="ml-4" style="color: #34333f; font-weight:600">Categories</label>
+        <ul class="list-box">
+          <li><a href="" class="active" routerLink="mainpage"> <i class="fa fa-home px-2"></i> Main Page</a></li>
+          <li><a href="" routerLink="tvchainal"><i class="fas fa-tv px-2"></i> TV-chainal</a></li>
+          <li><a href="" routerLink="movies"> <i class="fas fa-compact-disc px-2"></i> Movies</a></li>
+          <li><a href=""><i class="fas fa-tv px-2"></i> TV-series</a></li>
+
+          <li><a href=""><i class="fa  fa-users px-2"></i> Conatct us</a></li>
+
+          <li><a href=""><i class="fas fa-futbol px-2"></i> Sprot</a></li>
+
+          <li><a href=""> <i class="fab fa-slideshare px-2"></i> For Kids</a></li>
+
+          <li><a href=""> <i class="far fa-thumbs-up px-2"></i>
+              Favourites</a></li>
+
+          <li><a href=""> <i class="fa  fa-users px-2"></i> Personal data</a></li>
+        </ul>
+
+        <div class="col-md-12 " style="margin-top: 18rem;">
+          <div class="image-box ">
+            <label class="ml-0 mb-4" style="font-size: 0.6rem; color:rgb(160, 160, 160);">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, assumenda.</label>
+            <img src="assets/movie-img/app.png" height="30" width="80" class=" mb-5">
+            <img src="assets/movie-img/gooapp.png" height="30" width="80" class=" ml-2 mb-5" >
+
+          </div>
+        </div>
+
+      </div>
+
+
+
+<!--Carousle-->
+        <div class="col-md-8" >
+
+            <div class="col-md-12 px-0 mx-0">
+              <div id="demo" class="carousel slide" data-ride="carousel">
+
+          <!-- Indicators -->
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+          </ul>
+
+          <!-- The slideshow -->
+          <div class="carousel-inner" style="height: 40vh;">
+            <div class="carousel-item active">
+              <img src="assets/movie-img/banner.jpg" alt="img" class="d-block  s_img img-fluid">
+
+              <div class="carousel-caption text-left">
+                <div class="caption-box">
+                  <span class="list">
+                    <a href="#">Adventure </a>|
+                    <a href="#">Dramma </a>|
+                    <a href="#">Movie </a> |
+                    <a href="#">Adventure </a>
+                  </span>
+                  <div class="head">
+                    <h3>Interstellar</h3>
+                  </div>
+                  <div class="btn-box"><button><i class="fas fa-play-circle"></i> Watch trailer</button>
+                     <button class="ml-4">
+                       <i class="fas fa-star"></i> Add To Favourites
+                    </button></div>
+                  <div class="para">
+                    <p class="p-0 mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, assumenda
+                      delectus perferendis corrupti praesentium placeat sint porro adipisci eos laboriosam a, quibusdam
+                      recusandae.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+
+
+
+      </div>
+    </div>
+
+
+    <!--Card Section-->
+
+  <div class="collection d-flex justify-content-between ">
+    <div>
+      <h5 class="mt-4">Movie Collection</h5>
+    </div>
+    <div><button class="all-collection mt-4 ">All collection</button></div>
+  </div>
+
+        <!-- router Link-open-->
+        <router-outlet></router-outlet>
+
+      </div>
+
+
+    </div>
+
+</div>
+
+</div>
